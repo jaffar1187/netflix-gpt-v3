@@ -53,14 +53,22 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="absolute flex w-screen px-8 py-2 bg-gradient-to-b from-black z-10 justify-between">
-      <img className="w-44" src={LOGO} alt="Netflix Logo" />
+    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-20 justify-between">
       {user && (
-        <div className="flex py-4 cursor-pointer">
-          <img className="w-10 h-10" alt="user Icon" src={USER_AVATAR} />
-          <button className="font-bold text-white my-1" onClick={handleSignOut}>
+        <div className="flex cursor-pointer justify-between">
+          <img className="w-44" src={LOGO} alt="Netflix Logo" />
+          <button
+            className="font-bold text-white my-1 relative top-[-10px]"
+            onClick={handleSignOut}
+          >
             (Sign Out)
           </button>
+          {/* <img
+            // className="w-10 absolute right-[130px] top-5"
+            className="w-10 h-10 relative top-[20px]"
+            alt="user Icon"
+            src={USER_AVATAR}
+          /> */}
         </div>
       )}
     </div>

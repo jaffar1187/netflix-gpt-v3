@@ -16,4 +16,7 @@ const API_OPTIONS = {
   },
 };
 
-export { LOGO, USER_AVATAR, HOME_PAGE_BG, API_OPTIONS };
+//https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg
+const IMG_CDN_POSTS = "https://image.tmdb.org/t/p/w200";
+
+export { LOGO, USER_AVATAR, HOME_PAGE_BG, API_OPTIONS, IMG_CDN_POSTS };
