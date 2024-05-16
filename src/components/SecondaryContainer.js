@@ -12,7 +12,7 @@ const SecondaryContainer = () => {
   )
     return;
   return (
-    <div className="absolute bg-black text-white z-20 top-[650px] px-[40px]">
+    <div className="absolute bg-black text-white z-20 top-[600px] px-[40px]">
       <div className="bg-transparent">
         <MovieList title={"Now Playing"} movies={movies.nowPlayingMovies} />
       </div>

@@ -77,14 +77,14 @@ const Header = () => {
           /> */}
           </div>
 
-          <div className="flex w-full justify-end relative top-[-63px] left-[-95px]">
+          {/* <div className="flex w-full justify-end relative top-[-63px] left-[-95px]">
             <button
               onClick={handleGptSearchButtonClick}
               className="px-[7px] h-[32px] bg-purple-800 text-white rounded-lg"
             >
               {!status ? "GPT Search" : "Homepage"}
             </button>
-          </div>
+          </div> */}
         </>
       )}
     </div>

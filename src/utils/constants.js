@@ -1,6 +1,8 @@
 const LOGO =
   "https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
 
+const OPEN_AI_KEY = "";
+
 const USER_AVATAR =
   "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png";
 
@@ -19,4 +21,11 @@ const API_OPTIONS = {
 //https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg
 const IMG_CDN_POSTS = "https://image.tmdb.org/t/p/w200";
 
-export { LOGO, USER_AVATAR, HOME_PAGE_BG, API_OPTIONS, IMG_CDN_POSTS };
+export {
+  LOGO,
+  USER_AVATAR,
+  HOME_PAGE_BG,
+  API_OPTIONS,
+  IMG_CDN_POSTS,
+  OPEN_AI_KEY,
+};
